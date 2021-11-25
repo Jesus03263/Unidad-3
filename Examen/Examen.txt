@@ -1,0 +1,56 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"            Calendario mes diciembre        "<<endl;
+    cout<<"          Calendario que informa el clima   "<<endl;
+    int numero;
+    cout<<" Domingo  Lunes  Martes  Miercoles  Jueves  Viernes  Sabado" <<endl ;
+    cout<<"                             1         2        3       4  " <<endl;
+    cout<<"     5       6      7        8         9        10      11 "<<endl;
+    cout<<"     12      13     14       15        16       17      18 "<<endl;
+    cout<<"     19      20     21       22        23       24      25 "<<endl;
+    cout<<"     26      27     28       29        30       31         "<<endl <<endl<<endl;
+    
+    cout<<" Digita numero " <<endl<<endl;
+    cin>>numero;
+    
+    switch(numero){
+        case 1 : cout<<endl<<"los grados son de 25"; break;
+        case 2 : cout<<endl<<"los grados son de 15"; break;
+        case 3 : cout<<endl<<"los grados son de 27"; break;
+        case 4 : cout<<endl<<"los grados son de 18"; break;
+        case 5 : cout<<endl<< "los grados son de -5"; break;
+        case 6 : cout<<endl<<"los grados son de 20"; break;
+        case 7 : cout<<endl<<"los grados son de 14"; break;
+        case 8 : cout<<endl<<"los grados son de 21"; break;
+        case 9 : cout<<endl<<"los grados son de -2"; break;
+        case 10 : cout<<endl<< "los grados son de -4"; break;
+        case 11 : cout<<endl<<"los grados son de 12"; break;
+        case 12 : cout<<endl<<"los grados son de 11"; break;
+        case 13 : cout<<endl<<"los grados son de 14"; break;
+        case 14 : cout<<endl<<"los grados son de 26"; break;
+        case 15 : cout<<endl<< "los grados son de 30"; break;
+        case 16 : cout<<endl<<"los grados son de 24"; break;
+        case 17 : cout<<endl<<"los grados son de 15"; break;
+        case 18 : cout<<endl<<"los grados son de 27"; break;
+        case 19 : cout<<endl<<"los grados son de 18"; break;
+        case 20 : cout<<endl<< "los grados son de 29"; break;
+        case 21 : cout<<endl<<"los grados son de 23"; break;
+        case 22 : cout<<endl<<"los grados son de 8;";break;
+        case 23 : cout<<endl<<"los grados son de 10"; break;
+        case 24 : cout<<endl<<"los grados son de 23"; break;
+        case 25 : cout<<endl<< "los grados son de 16"; break;
+        case 26 : cout<<endl<<"los grados son de 17"; break;
+        case 27 : cout<<endl<<"los grados son de 19"; break;
+        case 28 : cout<<endl<<"los grados son de 27"; break;
+        case 29 : cout<<endl<<"los grados son de 23"; break;
+        case 30 : cout<<endl<< "los grados son de 8"; break;
+        case 31 : cout<<endl<< "los grados son de 11"; break;
+        default: cout<<"aun no se actualiza la informacion"; break;
+    }
+
+    return 0;
+}
